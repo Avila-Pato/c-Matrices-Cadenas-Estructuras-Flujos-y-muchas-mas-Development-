@@ -1,6 +1,6 @@
 class Tarea
 {
-    public static void Main(string[] args)
+    public static void MainOLD(string[] args)
     {
         // variables
         byte i, j, numAlumnos, salones;
