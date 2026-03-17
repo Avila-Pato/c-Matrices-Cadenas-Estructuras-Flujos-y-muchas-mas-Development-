@@ -2,7 +2,7 @@
 
   class Matriz
   {
-      public static void Main(string[] args)
+      public static void MainOld(string[] args)
       {
             // double[,] matriz = new double[3, 3]; // matriz 3x3
 
