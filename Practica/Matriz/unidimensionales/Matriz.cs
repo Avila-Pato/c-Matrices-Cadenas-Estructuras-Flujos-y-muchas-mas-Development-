@@ -4,7 +4,7 @@
   {
       public static void MainOld(string[] args)
       {
-            // double[,] matriz = new double[3, 3]; // matriz 3x3
+            // double[] matriz = new double[3]; // matriz 3x3
 
             // int[] ints = new int[3] { 1, 2, 3 }; // arreglo de enteros
 
