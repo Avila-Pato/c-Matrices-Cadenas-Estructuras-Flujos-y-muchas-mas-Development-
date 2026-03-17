@@ -37,7 +37,7 @@
                 }
             }
 
-            //Calculamos el promedio
+            //Calculamos el promedio del curso
             promedio = sumaCalif / sumaAlumnos;
 
             //Calculamos la calificación mínima

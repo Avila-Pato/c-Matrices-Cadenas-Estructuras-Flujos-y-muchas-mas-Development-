@@ -1,6 +1,6 @@
 class Iteracion_matriz_escalonada
 {
-    public static void Main(string[] args)
+    public static void MainOLD(string[] args)
     {
         int i; // ciclo exterior
         int j; // ciclo interior
