@@ -20,7 +20,7 @@ namespace Seccion_Matrices
         // Matriz escalonada con asignacion implicita de tipo
         // el compilador ya sabe que vienen con 2 [][] en new[] y que cada una de esas matrices tiene un tipo de dato int,
         // asi por lo que infiere el tipo de la matriz jagged como VariantType
-        VariantType matrizJagged = new[]
+        int[][] matrizJagged = new[]
         {
             new[] { 1, 2, 3 },
             new[] { 4, 5 },
