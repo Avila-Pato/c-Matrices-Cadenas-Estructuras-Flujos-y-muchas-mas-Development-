@@ -4,7 +4,7 @@ namespace Clases
 {
     public class Ejercicio2
     {
-        public static void Main(string[] args)
+        public static void MainOld(string[] args)
         {
             Console.WriteLine("Bienvenido al banco, por favor ingresa tu nombre:");
             string nombre = Console.ReadLine() ?? "";

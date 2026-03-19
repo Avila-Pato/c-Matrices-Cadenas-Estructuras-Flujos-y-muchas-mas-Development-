@@ -1,17 +1,17 @@
 namespace Clases
 {
-    class Ejercicio1
+    public class Ejercicio1
     {
-        public static void MainOOld(string[] args)
+        public static void MainOld(string[] args)
         {
             // Variables
             string nombre, apellido, nip;
             Console.WriteLine("Bienvenido a la empresa, por favor ingresa tu nombre: \n");
-            nombre = Console.ReadLine();
+            nombre = Console.ReadLine() ?? "";
             Console.WriteLine("Ahora ingresa tu apellido: \n");
-            apellido = Console.ReadLine();
+            apellido = Console.ReadLine() ?? "";
             Console.WriteLine("Por último, ingresa tu NIP: \n");
-            nip = Console.ReadLine();
+            nip = Console.ReadLine() ?? "";
 
             // Instanciamos a la clase empleado
             Empleado empleado = new Empleado(nombre, apellido);

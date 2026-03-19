@@ -1,8 +1,9 @@
-using System.Drawing;
 
-class Clases
+namespace Clases
+{
+    internal class Program
     {
-        static void MainOld(string[] args)
+        static void Main(string[] args)
         {
             // Instanciando un objeto de la clase Automovil
             Automovil miAuto = new Automovil();
@@ -27,7 +28,7 @@ class Clases
 
         public class Automovil
         {
-            private string color , modelo, combustible;
+            private string color, modelo, combustible;
             private int ano, numPuertas;
             private int ccMotor;
 
@@ -37,13 +38,13 @@ class Clases
             private bool aireAcondicionado;
 
             //Constructor
-            public Automovil() 
+            public Automovil()
             {
                 asientos = "Cuero";
                 colorTablero = "CAFE";
                 aireAcondicionado = true;
             }
-            
+
 
             //Propiedades
             //[acceco][tipo de dato][nombre de la propiedad]
@@ -71,13 +72,13 @@ class Clases
                 set => ano = value;
             }
 
-             public int NumPuertas
+            public int NumPuertas
             {
                 get => numPuertas;
                 set => numPuertas = value;
             }
 
-             public int CcMotor
+            public int CcMotor
             {
                 get => ccMotor;
                 set => ccMotor = value;
@@ -91,28 +92,28 @@ class Clases
                 Console.WriteLine("El automovil esta acelerando");
                 return acelerando;
             }
-        public bool Frenar()
-        {
-            bool frenando = true;
-            Console.WriteLine("El automovil esta frenando");
-            return frenando;
-        }
+            public bool Frenar()
+            {
+                bool frenando = true;
+                Console.WriteLine("El automovil esta frenando");
+                return frenando;
+            }
 
-        // invalidando el ToString con override
-        public override string ToString()
-        {
-            string mensaje;
-            mensaje = "El Color es " + Color + 
-            ", el Modelo es " + Modelo + ", el Combustible es "
-            + Combustible + ", el Año es "
-            + Ano + ", el Número de Puertas es " + NumPuertas
-            + " y el CC del Motor es " + CcMotor + 
-            // agregando los campos inicializados con el constructor al mensaje del ToString
-            ", los Asientos son de " + asientos + ", el Color del Tablero es " + colorTablero + " y el Aire Acondicionado es " + aireAcondicionado;
-            return mensaje;
+            // invalidando el ToString con override
+            public override string ToString()
+            {
+                string mensaje;
+                mensaje = "El Color es " + Color +
+                ", el Modelo es " + Modelo + ", el Combustible es "
+                + Combustible + ", el Año es "
+                + Ano + ", el Número de Puertas es " + NumPuertas
+                + " y el CC del Motor es " + CcMotor +
+                // agregando los campos inicializados con el constructor al mensaje del ToString
+                ", los Asientos son de " + asientos + ", el Color del Tablero es " + colorTablero + " y el Aire Acondicionado es " + aireAcondicionado;
+                return mensaje;
 
 
+            }
         }
     }
-        
-    }
+}
