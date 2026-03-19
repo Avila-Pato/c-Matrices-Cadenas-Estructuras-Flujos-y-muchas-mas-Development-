@@ -2,7 +2,7 @@ namespace SobreCargaDeMetodos
 {
     class SobrecargaDeMetodos
     {
-        public static void Main(string[] args)
+        public static void MainOLD(string[] args)
         {
                 // Instanciando un objeto de la clase Nombres
                 Nombres nombres = new Nombres();
