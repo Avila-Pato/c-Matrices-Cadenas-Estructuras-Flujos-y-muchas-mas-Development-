@@ -7,15 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <StartupObject>Colecciones</StartupObject>
-  </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="Metodos_Parametros\**" />
     <Compile Remove="Matrices\**" />
     <Compile Remove="StackPila\**" />
     <Compile Remove="Clases\**" />
+    <Compile Remove="Colecciones_Genericas\Colecciones.cs" />
   </ItemGroup>
 
 </Project>

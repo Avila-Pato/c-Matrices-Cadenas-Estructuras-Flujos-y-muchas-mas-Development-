@@ -13,11 +13,12 @@
 // 5- sorted list
 
 
-using System.ComponentModel;
-
-class Colecciones
+ 
+namespace Colecciones
 {
-    public static void Main(string[] args)
+    class ColeccionesOLD
+    {
+    public static void MainOLD(string[] args)
     {
         object numeroEntero = 5; // esto es una caja, se guarda el valor en un objeto
         object cadena = "Hola"; // esto es una caja, se guarda el valor en un objeto
@@ -36,5 +37,6 @@ class Colecciones
         int numGrande = 500;
         byte numPequeno = (byte)numGrande; // esto es una caja, se guarda el valor en un objeto
 
+    }
     }
 }
