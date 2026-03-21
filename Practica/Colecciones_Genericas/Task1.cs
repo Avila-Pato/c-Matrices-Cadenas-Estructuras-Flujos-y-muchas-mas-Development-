@@ -2,7 +2,7 @@ using System.Data.Common;
 
 class Task1
 {
-    public static void Main(string[] args)
+    public static void MainOld(string[] args)
     {
         // Varaibles locales 
         int opcion;
