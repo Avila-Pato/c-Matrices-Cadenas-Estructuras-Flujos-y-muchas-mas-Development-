@@ -1,6 +1,6 @@
 class Dictionary
 {
-    public static void Main(string[] args)
+    public static void MainOld(string[] args)
     {
         // Instanciando un diccionario de claves de tipo string y valores de tipo int 
         Dictionary<string, int> empleados = new Dictionary<string, int>(); 
